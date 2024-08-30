@@ -16,8 +16,6 @@ For engine moves, we leveraged Lichess’s online database of evaluations (https
 
 For human moves, we made use of an OTB dataset containing over 4 million games of classical GM level play, where cheating is likely less prevalent than online formats (ajedrezdata.com/databases/otb/over-the-board-database-aj-otb-000/). 
 
-Samples of these datasets can be found in the 'games' subdirectory.
-
 In order to use this data for classification, we needed to separate it into three categories:
 0: moves that only a human would make
 ½: moves that both a human and engine would make
